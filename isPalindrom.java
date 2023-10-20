@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class isPalindrom {
-    static boolean isPalindrom(int number) {
+    static boolean isitPalindrom(int number) {
         int temp = number, reverseNumber = 0, lastNumber;
 
         while (temp != 0) {
@@ -24,6 +24,7 @@ public class isPalindrom {
         Scanner scanner = new Scanner(System.in);
         System.out.print("sayi giriniz: ");
         int input = scanner.nextInt();
-        isPalindrom(input);
+        scanner.close();
+        isitPalindrom(input);
     }
 }
