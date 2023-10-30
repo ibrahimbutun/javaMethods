@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.swing.text.html.HTMLDocument.RunElement;
-
 public class advancedCalculator {
 
     static int sum(int a, int b) {
@@ -46,6 +44,7 @@ public class advancedCalculator {
             int a = scanner.nextInt();
             System.out.println("ikinci sayıyı giriniz..");
             int b = scanner.nextInt();
+            scanner.close();
 
             switch (select) {
                 case 1:

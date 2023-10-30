@@ -22,6 +22,7 @@ public class recursivePower {
         int taban = scanner.nextInt();
         System.out.print("Üs değerini giriniz: ");
         int üs = scanner.nextInt();
+        scanner.close();
         power(taban, üs);
     }
 }
